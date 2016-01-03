@@ -32,8 +32,3 @@ class Person
     end
     
 end
-
-jim = Person.new('Jim', 'Halpert', 'jim@halpert.com')
-dan = Person.new('Dan', 'Smith', 'dan@smith.com')
-lori = Person.new('Lori', 'John', 'lori@yup.com')
-dan.assign
