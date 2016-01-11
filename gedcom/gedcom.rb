@@ -92,7 +92,7 @@ class Tree
             end
             
             if n.data != nil    
-                puts ' ' * (n.level + 1)  + n.data
+                xml.puts ' ' * (n.level + 1)  + n.data
             end
             
             if n.level < @nodes[counter + 1].level
